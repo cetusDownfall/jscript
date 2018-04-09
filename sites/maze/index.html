@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>a maze</title>
+		<link rel="stylesheet" href="styles/maze.css">
+		<meta name="author" content="Ryugo Okada">
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<form>
+			<label for="rowNum">Rows: </label>
+			<input type="number" name="rowNum" id="rowNum" value="10"><br>
+			<label for="colNum">Cols: </label>
+			<input type="number" name="colNum" id="colNum" value="10"><br>
+			<label for="wallColor">Wall color: </label>
+			<input type="color" name="wallColor" id="wallColor" value="#33AA88">
+			<button type="button" onclick='gensetmaze();'>Generate</button>
+		</form>
+		<table id='maze'></table>
+		<script src="scripts/mazegen.js"></script>
+	</body>
+</html>
