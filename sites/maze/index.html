@@ -9,12 +9,15 @@
 	<body>
 		<form>
 			<label for="rowNum">Rows: </label>
-			<input type="number" name="rowNum" id="rowNum" value="10"><br>
+			<input type="number" name="rowNum" id="rowNum" value="50"><br>
 			<label for="colNum">Cols: </label>
-			<input type="number" name="colNum" id="colNum" value="10"><br>
+			<input type="number" name="colNum" id="colNum" value="50"><br>
+			<label for="colNum">Delay(ms): </label>
+			<input type="number" name="delay" id="delay" value="17"><br>
 			<label for="wallColor">Wall color: </label>
 			<input type="color" name="wallColor" id="wallColor" value="#33AA88">
 			<button type="button" onclick='gensetmaze();'>Generate</button>
+			<button type="button" onclick='solvemaze();'>Solve</button>
 		</form>
 		<table id='maze'></table>
 		<script src="scripts/mazegen.js"></script>

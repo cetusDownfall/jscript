@@ -6,3 +6,5 @@ td.s { border-bottom: none }
 td.w { border-left: none }
 td[data-visited='f'] { background-color: #000000; }
 td[data-visited='t'] { background-color: #FFFFFF; }
+td[data-visited='p'] { background-color: #338833; }
+td[data-visited='u'] { background-color: #883333; }
